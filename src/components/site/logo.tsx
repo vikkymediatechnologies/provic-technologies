@@ -7,9 +7,10 @@ export function Logo({ className = "" }: { className?: string; showText?: boolea
       <img
         src={logoImg}
         alt="Provic Technologies logo"
-        width={180}
-        height={56}
-        className="h-12 md:h-14 w-auto object-contain transition-transform group-hover:scale-105"
+        width={240}
+        height={80}
+        decoding="async"
+        className="h-14 md:h-16 lg:h-20 w-auto object-contain drop-shadow-[0_2px_6px_rgba(10,21,48,0.25)] transition-transform group-hover:scale-105"
       />
     </Link>
   );
